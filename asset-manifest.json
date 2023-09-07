@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-Project/static/css/main.38670129.css",
+    "main.css": "/My-Project/static/css/main.e4aac2bf.css",
     "main.js": "/My-Project/static/js/main.295a5c36.js",
     "static/media/ImageSearch.png": "/My-Project/static/media/ImageSearch.617db9f4de6e905a0c61.png",
     "static/media/OurProduct.png": "/My-Project/static/media/OurProduct.72567ff5200fe02d4274.png",
@@ -9,11 +9,11 @@
     "static/media/CryptoCurrencyApp.png": "/My-Project/static/media/CryptoCurrencyApp.62c55ffeed4fe6f34dbf.png",
     "static/media/budget-planner.png": "/My-Project/static/media/budget-planner.113ad93d877c164a9452.png",
     "index.html": "/My-Project/index.html",
-    "main.38670129.css.map": "/My-Project/static/css/main.38670129.css.map",
+    "main.e4aac2bf.css.map": "/My-Project/static/css/main.e4aac2bf.css.map",
     "main.295a5c36.js.map": "/My-Project/static/js/main.295a5c36.js.map"
   },
   "entrypoints": [
-    "static/css/main.38670129.css",
+    "static/css/main.e4aac2bf.css",
     "static/js/main.295a5c36.js"
   ]
 }
