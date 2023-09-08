@@ -1,11 +1,10 @@
 import React from 'react'
-import ProductApp from './Component/Product/Products/ProductsApp'
+import PortfolioProject from './component/my-project/PortfolioProject';
 
 
 const App = () => {
   return (
-    <ProductApp />
+     <PortfolioProject/>
   )
 }
-
 export default App

@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #08043d;
+    position: relative;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 80px;
+}
+
+.navBar {
+    width: 100%;
+    height: 40px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+
+    position: absolute;
+    top: 0;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    margin: 5px 10px;
+    transition: color 1s;
+}
+
+.navBar a:active {
+    color: #f15d07;
+}
+
+.navBar a:hover {
+    color: #f15d07;
+}
+
+.sideBar {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2222;
+}
+
+.sideBar_wrapper {
+    display: flex;
+    background:#384f78;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+    max-height: 500px;
+    margin: 30px auto;
+    border-radius: 15px;
+    padding: 60px 0;
+
+
+    .closeMenu {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-size: 1.5rem;
+        color: #f15d07;
+        cursor: pointer;
+    }
+}
+
+.sideBar_wrapper a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    box-shadow: 1px, 1px, 10px, rgba(0, 0, 0, 1);
+    margin: 10px 0;
+}
+
+sideBar_wrapper a:nth-child(1) {
+    margin-top: 40px;
+}
+
+.menu {
+    display: none;
+    cursor: pointer;
+}
+
+.home {
+    width: 60%;
+    text-align: justify;
+}
+
+.home h3 {
+    color: #f1ce07;
+    font-size: 1.2rem;
+}
+
+.home .name {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.home h1 {
+    color: #abb8c2;
+    font-size: 2rem;
+}
+
+.home p {
+    font-size: 1.2rem;
+    color: #abb8c2;
+
+}
+
+.skills {
+    min-width: 30%;
+    max-width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+.skills h1 {
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid red; */
+    text-align: left;
+    position: relative;
+}
+
+.skills h1::after {
+    content: '';
+    position: absolute;
+    /* transform: translateX(-50%); */
+    width: 130px;
+    height: 3px;
+    left: 0%;
+    bottom: -5px;
+    background-color: #f06f19;
+
+}
+
+.front-End {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    /* border: 1px solid red; */
+
+}
+
+.frontend-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.frontend-wrapper div {
+    margin-right: 40px;
+}
+
+.react {
+    color: #0f88e4;
+}
+
+.html {
+    color: #f06f19;
+    background-color: #ffffff;
+}
+
+.js {
+    color: yellow;
+    /* background-color: yellow; */
+}
+
+.css {
+    color: blue;
+    background-color: #ffffff;
+}
+
+.backend {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 20px 0;
+
+}
+
+.backend-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.backend-wrapper div {
+    margin-right: 50px;
+}
+
+.card {
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px, 1px, 10px, rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.project-img {
+    width: 100%;
+    height: 110px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.card .name {
+    background-color: #ffffff;
+    color: #000;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.git {
+    color: #ffffff;
+}
+.db{
+    color: #0a8a10;
+}
+
+.port {
+    width: 80%;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+.port h1 {
+    margin-bottom: 0;
+}
+
+.line {
+    width: 15%;
+    height: 3px;
+    background-color: #f15d07;
+    margin: 5px 0 30px;
+}
+
+.singleport {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.linkcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkcontainer span {
+    width: 49%;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid red;
+    padding: 5px 0;
+    background: linear-gradient(#0f88e4, #abb8c2);
+}
+
+.linkcontainer span a {
+    width: 100%;
+    color: #ffffff;
+    /* border: 1px solid red; */
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.footer a {
+    color: #ffffff;
+    margin: 10px;
+    font-size: 25px;
+    color: #0f88e4;
+}
+
+.instagram {
+    color: #f12207;
+}
+
+.titleIcons {
+    width: 100%;
+    font-size: 1.7rem;
+    color: #f06f19;
+    margin: 10px 0;
+}
+
+.skillIcon {
+    font-size: 35px;
+}
+
+.contact {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.displayPage img {
+    width: 100%;
+    /* height: 110px; */
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.displayPage {
+    width: 450px;
+    height: 450px;
+    box-sizing: border-box;
+    margin: -10px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+
+    .textdisplay {
+        background: #090a11;
+        width: 100%;
+        margin: -10px 0;
+        display: flex;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+
+    .name {
+        font-size: 0.9rem;
+        text-align: center;
+        width: 100%;
+        text-align: justify;
+        margin-top: 10px;
+        color: #f06f19;
+    }
+    .names{
+        text-align: center;
+        color: #f06f19;
+        text-shadow: 1px 1px 2px #a69090;
+        margin: auto;
+        font-size: 1.3rem;
+
+    }
+
+    .link {
+        color: #0a8a10;
+        text-decoration: none;
+        width: 45%;
+        height: 35px;
+        padding: 5px 10px;
+        margin: auto;
+
+        .lin {
+            width: 100%;
+            border-radius: 15px;
+            background: #f06f19;
+            cursor: pointer;
+        }
+    }
+
+    .displayimg {
+        height: 50%;
+        margin: 0 ;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+    h5 {
+        font-size: 0.8rem;
+    }
+
+    .singleport {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .container {
+        padding: 80px 10px;
+    }
+
+    .card {
+        width: 180px;
+        margin: auto;
+
+
+        .name {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width:500px) {
+    .navBar a {
+        display: none;
+    }
+
+    .sideBar {
+        display: block;
+    }
+
+    .home {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .titleIcons {
+        font-size: 1.3rem;
+    }
+
+    .menu {
+        color: #f1ce07;
+        position: absolute;
+        right: 20px;
+        display: block;
+        top: 20px;
+        font-size: 30px
+    }
+
+    .frontend-wrapper div {
+        margin-right: 20px;
+    }
+
+    .skills {
+        text-align: center;
+    }
+
+    .skills h1 {
+        text-align: center;
+    }
+
+    .backend-wrapper div {
+        margin-right: 20px;
+    }
+
+    .skillIcon {
+        font-size: 30px;
+    }
+
+    .front-End h5 {
+        font-size: 0.8rem;
+    }
+
+    .backend h5 {
+        font-size: 0.8rem;
+    }
+
+    .frontend-wrapper {
+        justify-content: center;
+    }
+
+    .backend-wrapper {
+        justify-content: center;
+    }
+
+    .skills h1::after {
+        content: '';
+        position: absolute;
+        transform: translateX(-50%);
+        width: 50px;
+        height: 3px;
+        left: 50%;
+        bottom: -5px;
+        background-color: #f06f19;
+
+    }
+
+    .singleport {
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .displayPage {
+        width: 300px;
+        height: 600px;
+        font-size: 0.85rem;
+
+        .displayimg {
+            height: 40%;
+        }
+    }
+}
