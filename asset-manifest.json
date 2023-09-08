@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Project/static/css/main.e4aac2bf.css",
-    "main.js": "/My-Project/static/js/main.295a5c36.js",
+    "main.css": "/My-Project/static/css/main.f99dbe7e.css",
+    "main.js": "/My-Project/static/js/main.a0eea4f2.js",
     "static/media/ImageSearch.png": "/My-Project/static/media/ImageSearch.617db9f4de6e905a0c61.png",
     "static/media/OurProduct.png": "/My-Project/static/media/OurProduct.72567ff5200fe02d4274.png",
     "static/media/Submenu.png": "/My-Project/static/media/Submenu.02b4f5adffd8a908dcfa.png",
@@ -9,11 +9,11 @@
     "static/media/CryptoCurrencyApp.png": "/My-Project/static/media/CryptoCurrencyApp.62c55ffeed4fe6f34dbf.png",
     "static/media/budget-planner.png": "/My-Project/static/media/budget-planner.113ad93d877c164a9452.png",
     "index.html": "/My-Project/index.html",
-    "main.e4aac2bf.css.map": "/My-Project/static/css/main.e4aac2bf.css.map",
-    "main.295a5c36.js.map": "/My-Project/static/js/main.295a5c36.js.map"
+    "main.f99dbe7e.css.map": "/My-Project/static/css/main.f99dbe7e.css.map",
+    "main.a0eea4f2.js.map": "/My-Project/static/js/main.a0eea4f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4aac2bf.css",
-    "static/js/main.295a5c36.js"
+    "static/css/main.f99dbe7e.css",
+    "static/js/main.a0eea4f2.js"
   ]
 }
