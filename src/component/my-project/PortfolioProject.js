@@ -31,7 +31,7 @@ const PortfolioProject = () => {
           {sideBar && <SideBar sideBar={sideBar} closeSideBar={closeSideBar} />}
 
           <Routes>
-            <Route path="/" exact element={<Home />} />
+            <Route path='/' element={<Home/>} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/SingleProject" />
